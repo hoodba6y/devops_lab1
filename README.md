@@ -29,11 +29,9 @@ SSH-сервер установлен вместе с системой. Изна
 - `lsblk` и `fdisk -l` показывают диски и разделы (виртуальный диск 25 ГБ, LVM);
 - `mount`, `ls -la`, `top` показывают точки монтирования, содержимое каталога и загрузку процессов.
 
-![Диагностика](screenshots/03-diagnostics.png)
+![diag](screenshots/03-diagnostics1.png)
 
 Права доступа проверены на тестовом файле: `chmod 640` задаёт права чтения и записи владельцу и чтения группе, `chown root:root` меняет владельца и группу.
-
-![diag](screenshots/03-diagnostics1.png)
 
 ![diag](screenshots/03-diagnosticstopchownchmod.png)
 
