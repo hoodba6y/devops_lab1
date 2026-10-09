@@ -33,7 +33,7 @@ SSH-сервер установлен вместе с системой. Изна
 
 Права доступа проверены на тестовом файле: `chmod 640` задаёт права чтения и записи владельцу и чтения группе, `chown root:root` меняет владельца и группу.
 
-![diag](screenshots/03-diagnostics1)
+![diag](screenshots/03-diagnostics1.png)
 
 ![diag](screenshots/03-diagnosticstopchownchmod.png)
 
